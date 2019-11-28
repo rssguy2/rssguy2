@@ -6,7 +6,7 @@ import requests
 def main():
   resp = requests.get('http://en.metal-tracker.com/site/rss.html')
   print('len', len(resp.text))
-  print(resp.text[:1000])
+  print(resp.text[:1001])
 
 #def utf2file(ustr, filepath):
 #  with open(filepath, 'w', encoding="utf-8") as text_file:
